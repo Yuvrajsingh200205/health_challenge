@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #3f44b0, #7a7fe8);
+  transform: translateY(-2px);
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  padding: 12px;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.user-card {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
